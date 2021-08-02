@@ -733,6 +733,7 @@ b i:last-child {
     overflow: hidden;
     display: block;
     padding: 5px;
+    border-radius: 93% 7% 93% 7% / 6% 91% 9% 94% ;
 }
 
 .portfolio_item .portfolio_item_hover {
