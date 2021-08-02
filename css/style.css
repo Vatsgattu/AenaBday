@@ -39,9 +39,32 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.8;
     color: #a36e6e;
-    background-color: #ffb5a7;
+
 }
 
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+.svg-icon {
+    width: 2em;
+    height: 2em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #b65353;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
 
 .no-padding {
     padding-left: 0;
@@ -728,13 +751,22 @@ b i:last-child {
     padding-left: 0;
 }
 
+img{
+    width: 70%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .portfolio_item {
     position: relative;
     overflow: hidden;
     display: block;
     padding: 5px;
-    border-radius: 93% 7% 93% 7% / 6% 91% 9% 94% ;
+
 }
+ 
+
 
 .portfolio_item .portfolio_item_hover {
     position: absolute;
