@@ -42,7 +42,15 @@ body {
 }
 
 body {
-    
+}
+
+.wow{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.categories {
+    padding: 7%;
 }
 
 .svg-icon {
